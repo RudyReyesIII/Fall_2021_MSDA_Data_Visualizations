@@ -1,0 +1,16 @@
+---
+title: "Tech Financials"
+author: "Rudy Reyes"
+date: "8/31/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(psych)
+library(here)
+```
+
+This is my first R markdown document for Fall 2021.

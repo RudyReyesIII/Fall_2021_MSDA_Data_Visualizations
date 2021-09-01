@@ -9,8 +9,77 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse)
+library(haven)
 library(psych)
 library(here)
 ```
 
-This is my first R markdown document for Fall 2021.
+##Reading data
+
+```{r}
+d1 <- read_dta("tech_co_cstat_dta.zip")
+
+# d1 <- haven::read_dta("tech_co_cstat_dta.zip") This is the same as the function above
+  
+```
+
+```{r}
+class(d1)
+```
+
+```{r}
+names(d1)
+```
+
+
+```{r}
+head(d1)
+```
+
+
+```{r}
+tail(d1)
+```
+
+```{r}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
